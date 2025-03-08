@@ -56,7 +56,7 @@ namespace Home4Pets.Context
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server = DESKTOP-AJ9KVUU\\SQLEXPRESS; Database = Home4Pets; Trusted_Connection = True; TrustServerCertificate=True");
+            optionsBuilder.UseSqlServer("");
 
             base.OnConfiguring(optionsBuilder);
         }
